@@ -302,7 +302,9 @@
 
 					const details = document.createElement( 'div' );
 					details.className = 'details';
-					if (table[ i + 2 ] == "M"){
+
+					if (table[ i + 2 ] == "M")
+					{
 						details.innerHTML = table[ i + 1 ] + ' Years Old<br>' + table[ i + 2 ] + 'ale';
                     }
                     else
@@ -312,6 +314,7 @@
 
 						details.innerHTML = table[ i + 1 ] + ' Years Old<br>' + table[ i + 2 ] + 'emale';
                     }
+					
 					element.appendChild( details );
 					
 
